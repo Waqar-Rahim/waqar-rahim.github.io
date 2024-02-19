@@ -624,6 +624,13 @@
   <script src="js/scrollax.min.js"></script>
   
   <script src="js/main.js"></script>
-    
+   
+  <script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    Chatbot.init({
+        chatflowid: "6aa7395b-5e18-46da-8f90-b89c91a77dd9",
+        apiHost: "http://localhost:3000",
+    })
+</script>
   </body>
 </html>
